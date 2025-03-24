@@ -1,0 +1,334 @@
+/* Contact Page Specific Styles */
+.page-header {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 5%;
+    margin-top: 5rem;
+    background: linear-gradient(170deg, var(--primary-transparent) 0%, rgba(255, 255, 252, 0) 100%);
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 5rem 10%;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 3rem 2rem;
+}
+
+.contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.contact-info h2:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--white);
+    bottom: -10px;
+    left: 0;
+}
+
+.contact-info p {
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+.info-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.info-icon i {
+    font-size: 1.3rem;
+}
+
+.info-content h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.social-connect {
+    margin-top: 3rem;
+}
+
+.social-connect h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: var(--white);
+    color: var(--primary);
+    transform: translateY(-3px);
+}
+
+/* Contact Form */
+.contact-form {
+    padding: 3rem 2rem;
+}
+
+.contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--black);
+    position: relative;
+}
+
+.contact-form h2:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: var(--primary);
+    bottom: -10px;
+    left: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--gray);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.submit-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-dark, #0056b3);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+/* Availability Section */
+.availability {
+    padding: 5rem 10%;
+    background-color: var(--light-bg, #f9f9f9);
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.underline {
+    height: 3px;
+    width: 80px;
+    background-color: var(--primary);
+    margin: 0 auto;
+}
+
+.availability-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.availability-card {
+    background-color: var(--white);
+    padding: 2.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.availability-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.availability-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--primary-transparent, rgba(0, 123, 255, 0.1));
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.availability-icon i {
+    font-size: 1.8rem;
+}
+
+.availability-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.availability-card p {
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        padding: 2.5rem 1.5rem;
+    }
+    
+    .contact-form {
+        padding: 2.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .page-header {
+        height: 30vh;
+        margin-top: 4rem;
+    }
+    
+    .page-header h1 {
+        font-size: 2.5rem;
+    }
+    
+    .contact-section {
+        padding: 3rem 5%;
+    }
+    
+    .availability {
+        padding: 3rem 5%;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .availability-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header h1 {
+        font-size: 2rem;
+    }
+    
+    .page-header p {
+        font-size: 1rem;
+    }
+    
+    .info-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .submit-btn {
+        padding: 0.8rem 1.5rem;
+    }
+}

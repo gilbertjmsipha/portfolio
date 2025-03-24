@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Tech Craftsman</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">TC</div>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="skills.html">Expertise</a></li>
+            <li><a href="contact.html">Connect</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-header">
+        <h1>Technical <span class="highlight">Projects</span></h1>
+        <p>A showcase of my work across different domains</p>
+    </div>
+
+    <main>
+        <section class="projects">
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="network">Network</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="ASP.NET E-commerce Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>ASP.NET MVC application with secure payment processing and inventory management system.</p>
+                        <div class="tech-stack">
+                            <span>C#</span>
+                            <span>ASP.NET</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="network">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Network Monitoring Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Network Monitoring Dashboard</h3>
+                        <p>Real-time network performance monitoring tool with alert system for critical events.</p>
+                        <div class="tech-stack">
+                            <span>C++</span>
+                            <span>JavaScript</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="security">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Threat Detection System">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Threat Detection System</h3>
+                        <p>Intrusion detection tool that identifies and logs suspicious network activities.</p>
+                        <div class="tech-stack">
+                            <span>C#</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="database">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Inventory Management System">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Inventory Management System</h3>
+                        <p>MySQL database design with optimized schema for tracking inventory across multiple locations.</p>
+                        <div class="tech-stack">
+                            <span>MySQL</span>
+                            <span>PHP</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Client Portal">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Client Portal</h3>
+                        <p>Secure web portal allowing clients to track project progress and submit service requests.</p>
+                        <div class="tech-stack">
+                            <span>ASP.NET</span>
+                            <span>C#</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="security">
+                    <div class="project-img">
+                        <img src="/api/placeholder/800/500" alt="Vulnerability Scanner">
+                        <div class="project-overlay">
+                            <a href="#" class="view-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="#" class="code-btn"><i class="fas fa-code"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Vulnerability Scanner</h3>
+                        <p>Automated tool that identifies security vulnerabilities in web applications.</p>
+                        <div class="tech-stack">
+                            <span>C++</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">TC</div>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© <span id="year"></span> | Built with precision and purpose</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
